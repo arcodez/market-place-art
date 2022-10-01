@@ -20,6 +20,9 @@ const NAV__LINKS = [
   {
     display: "Contact",
     url: "/contact",
+  }, {
+    display: "Printers",
+    url: "/associated-printer",
   },
 ];
 

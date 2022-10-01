@@ -9,9 +9,11 @@ import Contact from "../pages/Contact";
 
 import Wallet from "../pages/Wallet";
 import NftDetails from "../pages/NftDetails";
+import AssociatedPrinters from "../pages/AssociatedPrinters";
+import PageNotFound from "../pages/PageNotFound";
 
 const Routers = () => {
-  return (
+  return ( 
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
@@ -20,6 +22,8 @@ const Routers = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/wallet" element={<Wallet />} />
       <Route path="/market/:id" element={<NftDetails />} />
+      <Route path="/associated-printer" element={<AssociatedPrinters />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
 };
