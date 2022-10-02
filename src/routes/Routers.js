@@ -11,6 +11,7 @@ import Wallet from "../pages/Wallet";
 import NftDetails from "../pages/NftDetails";
 import AssociatedPrinters from "../pages/AssociatedPrinters";
 import PageNotFound from "../pages/PageNotFound";
+import ProductsDetails from "../pages/ProductsDetails";
 
 const Routers = () => {
   return ( 
@@ -23,6 +24,7 @@ const Routers = () => {
       <Route path="/wallet" element={<Wallet />} />
       <Route path="/market/:id" element={<NftDetails />} />
       <Route path="/associated-printer" element={<AssociatedPrinters />} />
+      <Route path="/products" element={<ProductsDetails />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
