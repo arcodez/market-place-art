@@ -5,6 +5,7 @@
 .hero__content h2 {
   line-height: 55px;
   font-size: 2.5rem;
+  color: white;
 }
 
 .hero__content h2 span {
@@ -13,6 +14,7 @@
   background-clip: text;
   -webkit-text-stroke: 3px transparent;
   -webkit-text-fill-color: #14141f;
+  /* -webkit-text-fill-color: white; */
   margin-left: 7px !important;
   display: inline-block;
 }

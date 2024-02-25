@@ -18,9 +18,7 @@ import ava06 from "../images/ava-06.png";
 const img01 = "https://pbs.twimg.com/media/EvdggR7XIAMjgKM.jpg:large";
 const img02 =
   "https://i.pinimg.com/originals/56/d0/a3/56d0a347858cd33419f1e89a3af0f022.png";
-const img03 =
-  "https://animesher.com/orig/1/129/1293/12930/animesher.com_digital-anime-art-art-anime-art-1293071.jpg";
-
+const img03 = "https://img1.wallspic.com/crops/5/0/1/6/6/166105/166105-cyberpunk-anime-retro_punk_anime_girl_acostado_en_la_cama-morado-violeta-3840x2160.jpg";
 const img04 =
   "https://i.pinimg.com/564x/ce/78/4f/ce784febd010dba1afbae16c06dd4f2a.jpg";
 
@@ -31,12 +29,12 @@ const img06 =
   "https://i.pinimg.com/736x/52/2c/4e/522c4ea5b6066de6564d509608a66383.jpg";
 
 const img07 =
-  "https://images.unsplash.com/photo-1617503752587-97d2103a96ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJ0JTIwd29tYW58ZW58MHx8MHx8&w=1000&q=80";
+  "https://img3.wallspic.com/crops/5/7/4/2/7/172475/172475-cola_de_golondrina_secreta-trebol_negro-noel_silva-arte_animado-arte-3840x2160.jpg";
 
 const img08 =
   "https://i.pinimg.com/736x/5d/ba/dd/5dbadd95be38e0d7f93805beaaf70925.jpg";
 
-const img09 = "https://afremov.com/var/images/product/1200.1200/image_640.jpeg";
+const img09 = "https://img2.wallspic.com/crops/5/8/5/3/7/173585/173585-luz-senku_ishigami-dr_piedra-anime-manga-3840x2160.jpg";
 
 export const NFT__DATA = [
   {
@@ -61,12 +59,12 @@ export const NFT__DATA = [
 
   {
     id: "03",
-    title: "Civilian",
+    title: "Kerosone",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img03,
     creator: "Trista Francis",
-    creatorImg: ava03,
-    currentBid: 6.89,
+    creatorImg: ava02,
+    currentBid: 5.09,
   },
 
   {
@@ -105,7 +103,7 @@ export const NFT__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img07,
     creator: "Trista Francis",
-    creatorImg: ava03,
+    creatorImg: ava04,
     currentBid: 5.89,
   },
 

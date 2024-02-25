@@ -15,7 +15,7 @@ const Trending = () => {
             <h3 className="trending__title">Trending</h3>
           </Col>
 
-          {NFT__DATA.slice(0, 8).map((item) => (
+          {NFT__DATA.slice(0, 9).map((item) => (
             <Col lg="3" md="4" sm="6" key={item.id} className="mb-4">
               <NftCard item={item} />
             </Col>
